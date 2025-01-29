@@ -1,0 +1,19 @@
+using System;
+
+
+namespace Atividade_01
+{
+	public class Program
+	{
+		public static void Main()
+		{
+		
+			Console.Write("Escreva uma palavra: ");
+			string Palavra = Console.ReadLine();
+			
+			Console.Write("O comprimento da palavra digitada é: " + Palavra.Length);
+
+			Console.ReadKey();
+		}
+	}
+}

@@ -1,0 +1,18 @@
+using System;
+
+
+public class Program
+{
+    static void Main()
+    {
+        Console.Write("Digite \"sim\" ou \"não\": ");
+        string entrada = Console.ReadLine();
+
+        // Converte a entrada para bool
+        bool resposta = entrada.Equals("sim", StringComparison.OrdinalIgnoreCase);
+        Console.WriteLine("O valor digitado foi: " + resposta);
+
+        Console.ReadKey();
+
+    }
+}

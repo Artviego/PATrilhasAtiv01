@@ -1,0 +1,29 @@
+using System;
+
+
+namespace Atividade_01
+{
+	public class Program
+	{
+		public static void Main()
+		{
+		
+			Console.WriteLine("Digite o seu endereço completo");
+			Console.Write("\nEstado: ");
+			string Estado = Console.ReadLine();
+			Console.Write("Cidade: ");
+			string Cidade = Console.ReadLine();
+			Console.Write("Bairro: ");
+			string Bairro = Console.ReadLine();
+			Console.Write("Rua: ");
+			string Rua = Console.ReadLine();
+			Console.Write("Número: ");
+			string Numero = Console.ReadLine();
+			
+			Console.WriteLine("\nO seu endereço é Rua " + Rua + ", Número " + Numero + ", " + Bairro + ", " + Cidade + ", " + Estado);
+			
+
+			Console.ReadKey();
+		}
+	}
+}

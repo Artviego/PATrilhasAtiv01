@@ -1,0 +1,25 @@
+using System;
+
+
+namespace Atividade_01
+{
+	public class Program
+	{
+		public static void Main()
+		{
+		
+			Console.Write("Digite o preço do produto: ");
+			double preco = Convert.ToDouble(Console.ReadLine());
+		
+			Console.Write("Digite o desconto em porcentagem: ");
+			double desconto = Convert.ToDouble(Console.ReadLine());
+		
+			double PrecoFinal = preco - (preco * (desconto/100));
+		
+		
+			Console.WriteLine("O preço final do produto com o desconto é: " + PrecoFinal);
+			
+			Console.ReadKey();
+		}
+	}
+}

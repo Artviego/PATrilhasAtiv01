@@ -1,0 +1,15 @@
+using System;
+
+
+public class Program
+{
+    static void Main()
+    {
+        Console.Write("Digite um caractere: ");
+        char caractere = Convert.ToChar(Console.ReadLine());
+
+        Console.WriteLine("\nCaractere digitado: " + caractere);
+
+        Console.ReadKey();
+    }
+}

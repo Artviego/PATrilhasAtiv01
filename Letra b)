@@ -1,0 +1,18 @@
+using System;
+
+
+namespace Aprendizado_C_
+{
+    public class Program
+    {
+        public static void Main()
+        {
+            Console.Write("Digite um número: ");
+            double numeroReal = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("O seu número é: " + numeroReal);
+
+
+            Console.ReadKey();
+        }
+    }
+}

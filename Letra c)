@@ -1,0 +1,18 @@
+using System;
+
+
+namespace Aprendizado_C_
+{
+    public class Program
+    {
+        public static void Main()
+        {
+            Console.Write("Digite um número: ");
+            float numeroFlutuante = float.Parse(Console.ReadLine());
+            Console.WriteLine("O número digitado foi: " + numeroFlutuante);
+
+
+            Console.ReadKey();
+        }
+    }
+}

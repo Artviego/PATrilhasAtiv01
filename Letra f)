@@ -1,0 +1,24 @@
+using System;
+
+public class Program
+{
+    public static void Main()
+    {
+        decimal numeroDecimal;
+
+        Console.Write("Digite um número decimal: ");
+
+        if (decimal.TryParse(Console.ReadLine(), out numeroDecimal))
+        {
+            Console.WriteLine("O valor digitado foi: " + numeroDecimal);
+
+        }
+        else
+        {
+            Console.WriteLine("Entrada inválida. Por favor, digite um número decimal válido.");
+
+        }
+
+        Console.ReadKey();
+    }
+}
